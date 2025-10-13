@@ -1,0 +1,18 @@
+def main():
+    user_input = input(">_ ")
+
+    if user_input == "shutdown":
+        print("xOS says farewell")
+    elif user_input == "boot":
+        print("please select a device")
+    elif user_input == "exit":
+        print("exiting...")
+    elif user_input == "/help":
+        print("command_logic_beta:string_multi")
+    elif user_input == "langcheck":
+        print("hero, rubix and lime are all here")
+    else:
+        print("Unknown command, Type '/help' for more")
+
+if __name__ == "__main__":
+    main()
