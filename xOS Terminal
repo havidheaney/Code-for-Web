@@ -1,4 +1,8 @@
 def main():
+    
+ # This is a demo of the xOS Command Terminal for booting os into the machine and checking info of the PC  
+    
+    
     user_input = input(">_ ")
 
     if user_input == "shutdown":
@@ -11,6 +15,8 @@ def main():
         print("command_logic_beta:string_multi")
     elif user_input == "langcheck":
         print("hero, rubix and lime are all here")
+    elif user_input == "repl check":
+        print("NO CODE!")
     else:
         print("Unknown command, Type '/help' for more")
 
