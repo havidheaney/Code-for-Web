@@ -6,7 +6,7 @@ def main():
     user_input = input(">_ ")
 
     if user_input == "shutdown":
-        print("xOS says farewell")
+        print("xOS says farewell...")
     elif user_input == "boot":
         print("please select a device")
     elif user_input == "exit":
