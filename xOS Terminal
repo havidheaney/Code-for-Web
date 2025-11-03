@@ -17,6 +17,8 @@ def main():
         print("hero, rubix and lime are all here")
     elif user_input == "repl check":
         print("NO CODE!")
+    elif user_input == "input":
+        print("enter a syntax")
     else:
         print("Unknown command, Type '/help' for more")
 
